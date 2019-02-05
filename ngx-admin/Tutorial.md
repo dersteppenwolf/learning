@@ -33,3 +33,10 @@ To create a bundle in production mode, execute:
 
 This will clear up your dist folder (where release files are located) and generate a release build. Now you can copy the sources from the dist folder and use it with any backend framework or simply put it under a web server.
 
+## Nebular
+
+Docs
+
+https://akveo.github.io/nebular/
+https://akveo.github.io/nebular/docs/guides/install-based-on-starter-kit#install-based-on-starter-kit
+
