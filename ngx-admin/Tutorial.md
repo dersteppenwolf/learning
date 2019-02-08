@@ -7,17 +7,21 @@ http://akveo.github.io/ngx-admin/docs/getting-started/installation-guidelines
 
  ## Dev Tools 
 
+NodeJS 10.15.1 
 
-Running Linter before pushing to github:
-
-    npm run lint
+NVM: Node Version Manager - Simple bash script to manage multiple active node.js versions (Mac, Linux) https://github.com/creationix/nvm 
 
 Suggested Editor: Visual Studio Code
 
 Integrate Linter in VSCode: TSLint for Visual Studio Code  https://marketplace.visualstudio.com/items?itemName=eg2.tslint
 
+## Dev Tips
 
-## install
+Running Linter before pushing to github:
+
+    npm run lint
+
+## Running and Compiling
 
 
     nvm --version
