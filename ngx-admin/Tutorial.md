@@ -5,6 +5,14 @@
 Install ngx-admin
 http://akveo.github.io/ngx-admin/docs/getting-started/installation-guidelines
 
+ ## Dev Tools 
+
+ Running Linter before pushing to github:
+
+    npm run lint
+
+ Integrate Linter in VSCode: TSLint for Visual Studio Code  https://marketplace.visualstudio.com/items?itemName=eg2.tslint
+
 
 ## install
 
@@ -60,3 +68,5 @@ Available Icons  http://akveo.com/ngx-admin/pages/ui-features/icons
 Mimimal Component "Hello World"
 
     src/app/pages/test-dashboard
+
+

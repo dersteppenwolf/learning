@@ -4,10 +4,10 @@ import { TestDashboardComponent } from './test-dashboard.component';
 
 @NgModule({
   imports: [
-    ThemeModule
+    ThemeModule,
   ],
   declarations: [
-    TestDashboardComponent
+    TestDashboardComponent,
   ],
   providers: [
   ],
