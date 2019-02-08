@@ -33,10 +33,30 @@ To create a bundle in production mode, execute:
 
 This will clear up your dist folder (where release files are located) and generate a release build. Now you can copy the sources from the dist folder and use it with any backend framework or simply put it under a web server.
 
-## Nebular
+## Nebular: "Components, Auth & Security for your next Angular App"
 
 Docs
 
 https://akveo.github.io/nebular/
 https://akveo.github.io/nebular/docs/guides/install-based-on-starter-kit#install-based-on-starter-kit
 
+Components https://akveo.github.io/nebular/docs/components/components-overview
+
+Card Component https://akveo.github.io/nebular/docs/components/card/overview#nbcardcomponent
+
+Button Component https://akveo.github.io/nebular/docs/components/button/overview
+
+## Themes
+
+Switch Theme
+
+    src/app/@theme/theme.module.ts
+
+Available Icons  http://akveo.com/ngx-admin/pages/ui-features/icons
+
+
+## Examples
+
+Mimimal Component "Hello World"
+
+    src/app/pages/test-dashboard
