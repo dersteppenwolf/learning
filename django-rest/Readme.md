@@ -53,3 +53,6 @@ django admin
         
         Go:
         http://127.0.0.1:8000/admin/
+
+
+se implementó el tutorial hasta la sección "Highlighted Snippets Endpoint"
