@@ -4,6 +4,8 @@ SPA tutorial
 
 * https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
 * https://github.com/facebook/create-react-app#create-react-app-
+* https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#table-of-contents
+* https://reactjs.org/tutorial/tutorial.html
 
 Installation Prerequisites
 * nodejs
