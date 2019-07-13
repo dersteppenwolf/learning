@@ -32,6 +32,16 @@ _Have another more specific idea? You may want to check out our vibrant collecti
     gatsby develop
     ```
 
+    Upgrade gatsby (https://www.gatsbyjs.org/docs/migrating-from-v1-to-v2/#updating-your-dependencies) :
+
+    ```sh
+    npm i gatsby@latest
+
+    npm outdated
+
+    npm update
+    ```
+
 1.  **Open the source code and start editing!**
 
     Your site is now running at `http://localhost:8000`!
