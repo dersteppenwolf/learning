@@ -1,0 +1,34 @@
+throwErrorOnExtraParameters: true
+transparentTileErrorColor: "rgba(78, 78, 255, 125)"
+opaqueTileErrorColor: "rgba(255, 155, 155, 0)"
+
+templates:
+  #===========================================================================
+  A4 portrait: !template
+  #===========================================================================
+    reportTemplate: report.jrxml
+    attributes:
+      title: !string
+        default: "Countries"
+      map: !map
+        maxDpi: 400
+        width: 780
+        height: 330
+    processors:
+    - !reportBuilder
+      directory: '.'
+    - !createMap {}
+
+  #===========================================================================
+  A4 landscape: !template
+  #===========================================================================
+    reportTemplate: simpleReport.jrxml
+    attributes:
+      map: !map
+        maxDpi: 400
+        width: 780
+        height: 330
+    processors:
+    - !reportBuilder # compile all reports in current directory
+      directory: '.'
+    - !createMap {}

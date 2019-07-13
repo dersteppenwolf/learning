@@ -1,0 +1,37 @@
+{
+  "layout": "A4 landscape",
+  "outputFormat": "pdf",
+  "attributes": {
+    "map": {
+      "longitudeFirst": true,
+      "center": [-74.217849 , 4.581922],
+      "scale": 5000,
+      "projection": "EPSG:4326",
+      "dpi": 72,
+      "rotation": 0,
+      "layers": [
+        {
+          "baseURL": "http://localhost:8080/mapproxy/service?",
+          "opacity": 1,
+          "type": "WMS",
+          "layers": ["cartografia_500k"],
+          "imageFormat": "image/png",
+          "styles": ["default"],
+          "customParams": {
+            "TRANSPARENT": "true"
+          }
+        },
+        {
+          "baseURL": "http://localhost:8080/mapproxy/service?",
+          "opacity": 1,
+          "type": "WMS",
+          "layers": ["catastro"],
+          "imageFormat": "image/png",
+          "customParams": {
+            "TRANSPARENT": "true"
+          }
+        }
+      ]
+    }
+  }
+}
