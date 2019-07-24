@@ -94,7 +94,22 @@ Generate entities https://www.jhipster.tech/creating-an-entity/ :
 
 ```bash
 jhipster import-jdl jdl/jhipster-jdl.jh
+./mvnw clean
+./mvnw
+```
 
+error:
+
+```bash
+direct buffer constructor: unavailable
+
+java.lang.UnsupportedOperationException: Reflective setAccessible(true) disabled
+
+...
+
+jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable
+
+java.lang.IllegalAccessException: class io.netty.util.internal.PlatformDependent0$6 cannot access class jdk.internal.misc.Unsafe (in module java.base) because module java.base does not export jdk.internal.misc to unnamed module @9962b866
 ```
 
 Going to prod:
