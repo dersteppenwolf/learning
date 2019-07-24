@@ -20,6 +20,7 @@
 ## Tutorial
 
 10 minutes tutorial https://www.jhipster.tech/presentation/#/6
+Guides https://github.com/jhipster/jhipster-guides/tree/master/guides
 
 ```bash
 nvm --version
@@ -61,16 +62,47 @@ java --version
     OMR      - ec782f26
     JCL      - fa49279450 based on jdk-11.0.4+11)
 
-
-
+-- generate jhipster project
 jhipster
+```
+
+Create database:
+
+```sql
+
+CREATE user testhipster WITH PASSWORD 'kH9CQ4MGGtwotaD'  NOSUPERUSER INHERIT NOCREATEDB NOCREATEROLE NOREPLICATION;
+
+CREATE DATABASE testhipster_dev ENCODING 'UTF8' template 'template1' OWNER = testhipster;
+
+```
+
+Run your Spring Boot application:
+
+```bash
 ./mvnw
-npm start
-jhipster entity Foo
+> Application 'testhipster' is running! Access URLs:
+	Local: 		http://localhost:8080/
+```
+
+Start your Webpack development server with:
+
+```bash
+ npm start
+```
+
+Generate entities https://www.jhipster.tech/creating-an-entity/ :
+
+```bash
+jhipster import-jdl jdl/jhipster-jdl.jh
+
+```
+
+Going to prod:
+
+```bash
 ./mvnw -Pprod package
 docker-compose -f src/main/docker/mysql.yml up -d
 java -jar target/*.war
-
 ```
 
 # testhipster
