@@ -17,3 +17,7 @@ hugo server -D
 # build static pages
 
 hugo
+
+
+
+https://www.netlify.com/blog/2016/09/21/a-step-by-step-guide-victor-hugo-on-netlify/
