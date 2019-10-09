@@ -1,5 +1,9 @@
 # learn react
 
+https://learnitmyway.com/learn-react-with-these-resources/
+
+
+
 SPA tutorial
 
 * https://reactjs.org/docs/create-a-new-react-app.html#create-react-app
